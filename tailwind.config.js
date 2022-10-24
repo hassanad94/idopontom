@@ -12,6 +12,9 @@ module.exports = {
       xl: "1300px",
     },
     extend: {
+      colors: {
+        blue: "#0098da",
+      },
       backgroundImage: {
         googleDowloadIcon: "url('/img/icons/google-play-badge.svg')",
         apppleDownloadIcon: "url('/img/icons/app-store-badge.svg')",
