@@ -42,21 +42,21 @@ export default function Home() {
     <>
       <div className="relative bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto">
-          <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+          <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-10 xl:pb-15">
             <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
               <nav
                 className="relative flex items-center justify-between sm:h-10 lg:justify-start"
                 aria-label="Global"
               >
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-                  <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="#">
+                  <div className="flex items-center justify-center w-full md:w-auto">
+                    <a href="#" className="leading-none h-[39px]">
                       <span className="sr-only">Workflow</span>
                       <Image
-                        width={43}
+                        width={200}
                         height={40}
                         className="h-8 w-auto sm:h-10"
-                        src="/img/icons/icon.svg"
+                        src="/img/icons/logo.svg"
                         alt="icon"
                       />
                     </a>
